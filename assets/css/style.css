@@ -1,0 +1,10 @@
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
