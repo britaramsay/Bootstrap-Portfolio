@@ -6,11 +6,17 @@ body {
     background: url("../images/skyscraper.png");
 }
 
+.connect {
+    width: 100%;
+    min-width: 300px;
+}
+
 .social {
     width: 62px;
     height: 62px;
     margin-top: 0px;
     margin-right: 5px;
+    float: left;
 }
 
 .social:last-child {
@@ -51,31 +57,40 @@ body {
 }
 
 .auth-image {
-    width: 200px;
-    height: auto;
+    max-width: 40%;
+    /* height: auto;
     margin-top: 10px;
     float: left;
     margin-right: 25px;
+    text-align: center; */ 
+    display: block;
+    margin: 0;
 }
 
 #main-section {
     margin: 40px auto;
     margin-right: 30px;
-    background: white;
+    background: rgba(150, 226, 8, 0.992);
     padding-bottom: 20px;
     border: 1px solid #ccc;
+}
+
+@media only screen and (max-width:992px) {
+    #main-section {
+        width: 100%;
+    }
 }
 
 #sidebar {
     margin: 40px auto;
-    background: white;
+    background: rgba(150, 226, 8, 0.992);
     padding-bottom: 20px;
     border: 1px solid #ccc;
 }
 
-h3 {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+#panel-heading {
+    background:#222222;
+    color: gray;
 }
 
 #footer {
