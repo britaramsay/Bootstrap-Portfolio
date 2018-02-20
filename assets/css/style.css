@@ -57,14 +57,14 @@ body {
 }
 
 .auth-image {
-    max-width: 40%;
-    /* height: auto;
-    margin-top: 10px;
-    float: left;
-    margin-right: 25px;
-    text-align: center; */ 
+    width: 90%;    
     display: block;
     margin: 0;
+}
+
+.thumbnail {
+    background: rgba(150, 226, 8, 0.992);
+    border: 0px;
 }
 
 #main-section {
@@ -73,12 +73,6 @@ body {
     padding-bottom: 20px;
     border: 1px solid #ccc;
 }
-
-/* @media only screen and (max-width:992px) {
-    #main-section {
-        width: 100%;
-    }
-} */
 
 #sidebar {
     margin: 40px auto;
