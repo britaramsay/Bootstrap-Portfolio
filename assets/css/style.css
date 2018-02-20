@@ -69,20 +69,20 @@ body {
 
 #main-section {
     margin: 40px auto;
-    margin-right: 30px;
     background: rgba(150, 226, 8, 0.992);
     padding-bottom: 20px;
     border: 1px solid #ccc;
 }
 
-@media only screen and (max-width:992px) {
+/* @media only screen and (max-width:992px) {
     #main-section {
         width: 100%;
     }
-}
+} */
 
 #sidebar {
     margin: 40px auto;
+    margin-bottom: 100px;
     background: rgba(150, 226, 8, 0.992);
     padding-bottom: 20px;
     border: 1px solid #ccc;
@@ -100,4 +100,12 @@ body {
 #footer p {
     text-align: center;
     color: #ccc;
+}
+
+.center-block {
+    max-width: 80px;
+}
+
+#last-img {
+    margin-right: 15px;
 }
