@@ -28,6 +28,7 @@ body {
 
 .navbar {
     margin-bottom: 40px;
+    box-shadow: 5px 8px 18px #888888;
 }
 
 #main-section {
@@ -35,6 +36,7 @@ body {
     margin-bottom: 40px;
     background: rgba(150, 226, 8, 0.992);
     border: 1px solid rgb(1, 7, 2);
+    box-shadow: 5px 8px 18px #888888;
 }
 
 #sidebar {
@@ -42,11 +44,17 @@ body {
     margin-bottom: 40px;
     background: rgba(150, 226, 8, 0.992);
     border: 1px solid rgb(1, 7, 2);
+    box-shadow: 5px 8px 18px #888888;
 }
 
 #panel-heading {
     background:#222222;
     color: grey;
+}
+
+#panel-heading h3 {
+    color: grey;
+    text-align: left;
 }
 
 #footer {
